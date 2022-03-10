@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yum, yum! Pastelería</title>
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+            background:rgb(253, 230, 234);
+        }
+
+        .nav-principal{
+            background-color: rgb(92, 92, 92);
+            overflow: auto;
+            width: 100%;
+            height: 80px;
+        }
+
+        .logo img{
+            position: absolute;
+            margin-top: auto;
+            margin-left: 10px;
+            width: 80px;
+        }
+
+        .nav-principal a{
+            display:block;
+            color: pink;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: lighter;
+            font-family: Arial;
+            padding: 30px;
+            float: right;  
+         }
+
+         .nav-principal a:hover{
+            background-color: var(--primario);
+            color: rgb(236, 152, 236);
+         }
+
+         .portada h1{
+             font-size: 70px;
+             text-align: center;
+         }
+
+         .portada h2{
+             font-size: 20px;
+             text-align: center;
+         }
+       
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img src="imges/yum yum.png" alt="yum, yum! Pastelería">
+    </div>
+
+    <div class="nav-background">
+        <nav class="nav-principal">
+            <a href="#">Inicio</a>
+            <a href="#">Galería</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </div>
+
+    <header class="portada"> 
+        <h1 class="titulo">yum, yum!</h1>
+        <h2>Pastelería</h2> 
+    </header>
+
+    
+    <div>
+        <h3>¡La cocina es tuya!</h3>
+        <h4>Vamos a preparar tu delicioso pastel</h4>
+
+        <label for="bread">Primeramente seleciona el tipo de pan:</label><br>
+        <select id="bread">
+            <option value="bread1">Mosaico (Vainilla y Chocolate)</option>
+            <option value="bread2">Vainilla</option>
+            <option value="bread3">Chocolate</option>
+            <option value="bread4">Tres Leches</option>
+            <option value="bread5">Red Velvet</option>
+            <option value="bread6">Zanahoria</option>
+        </select>
+        <br><br>
+
+        <label for="filling">Ahora el relleno del pan:</label><br>
+        <select id="fillingg">
+            <option value="filling1">Fresas</option>
+            <option value="filling2">Duraznos</option>
+            <option value="filling3">Chocolate</option>
+            <option value="filling3">Chocolate Blanco</option>
+            <option value="filling4">Mermelada de Fresa</option>
+            <option value="filling5">M&M's</option>
+        </select>
+        <br>
+
+        <h4>¡Yum, yum! ¡Esto va a quedar delicioso!</h4>
+
+        <label for="topping">No se te olvide seleccionar la covertura:</label><br>
+        <select id="topping">
+            <option value="topping1">Fondant</option>
+            <option value="topping2">Chocolate</option>
+            <option value="tipping3">Crema Pastelera</option>  
+        </select>
+        <br><br>
+
+        <label for="cereal">Y por último... ¿Qué cereal te gustaría?:</label><br>
+        <select id="ceral">
+            <option value="cereal1">Nuez</option>
+            <option value="deral2">Frezas</option>
+            <option value="ceral3">M&M's</option>  
+        </select>
+        <br><br>
+
+        <a href="./pedido_cliente.html">
+            <input type="button" value="Ornear mi Pastel">
+        </a>
+    </div>
+    <br><br>
+
+    <footer>
+        <h4>Contáctanos</h4>
+        <dl>
+            <dt>Teléfono</dt>
+            <dd>33 333-3333</dd>
+            <dt>Dirección</dt>
+            <dd>Avenida siempre viva 742</dd>
+            <dt>Email</dt>
+            <dd>pasteleria@yumyum.com</dd>
+        </dl>
+    </footer>
+</body>
+</html>
